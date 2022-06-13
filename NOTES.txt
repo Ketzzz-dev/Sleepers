@@ -1,0 +1,8 @@
+the brain is set up in groups for 3 different types:
+memory modules store data
+sensors find data to store
+tasks use the stored data to take action
+in the tick method, the axolotl calls this.getBrain().tick and then AxolotlBrain.updateActivities(this)
+brain is created in the LivingEntity using deserializeBrain. this is overridden in the axolotl
+createBrainProfile is used to add modules to the brain stuff
+see SENSORS and MEMORY_MODULES in the axolotl class initializer
